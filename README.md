@@ -21,7 +21,7 @@ El dataset bajo correponde al registro nacional de **Declaraciones Juradas de Ve
 * `valor_total_usd` (Numérico Continuo): Monto económico bruto de la transacción financiera (`toneladas` * `precio_fob_usd_ton`).
 
 ## 4. Metodología Aplicada
-1.  **Ingesta e Integridad:** Carga de los microdatos y evaluación inicial de dimensiones y tipos estructurales.
+1.  **Ingesta e Integridad:** Carga de los datos y evaluación inicial de dimensiones y tipos estructurales.
 2.  **Calidad de Datos:** Remoción dirigida de registros duplicados e imputación estratégica de valores nulos (NaN) mediante medidas de tendencia central (Moda) para preservar la distribución de las variables categóricas.
 3.  **Feature Engineering:** Descomposición temporal de la variable cronológica en descriptores derivados (año, mes, trimestre) para capturar dinámicas estacionales de mercado.
 4.  **Visualización Avanzada:** Confección de histogramas con aproximaciones KDE para formas de distribución, diagramas de caja para detección de outliers, gráficos de dispersión e identificación de correlaciones multivariadas.
